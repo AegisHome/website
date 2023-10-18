@@ -42,3 +42,7 @@ body {
 .linkedin {
     text-decoration: none;
 }
+
+#aegis-logo {
+    max-width: 3rem;
+}
