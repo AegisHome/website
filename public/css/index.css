@@ -11,12 +11,18 @@ body {
     align-items: center;
     background-color: white;
 }
-.content-holder {
+#team-holder {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+}
+
+#feature-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .team-member-info {
@@ -46,3 +52,12 @@ body {
 #aegis-logo {
     max-width: 3rem;
 }
+
+.feature {
+    width: 80vw;
+    background-color: rgb(173, 173, 173);
+    margin: 1rem 0 1rem 0;
+    padding: 0.1rem 1rem 1rem 1rem;
+    border-radius: 0.5rem;
+}
+
