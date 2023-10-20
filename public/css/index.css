@@ -1,16 +1,30 @@
+@font-face {
+    font-family: figtree;
+    src: url(/public/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: rgb(243, 244, 246);
+    padding: 0;
+    margin: 0;
+    font-family: figtree, sans-serif;
+    font-size: large;
+}
+
 .team-headshot {
     border-radius: 50%;
     max-width: 10rem;
 }
-body {
-    background-color: rgb(243, 244, 246);
-}
+
 .section {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: white;
+    margin: 0 8vw 0 8vw;
+    border-radius: 1em;
 }
+
 #team-holder {
     display: flex;
     width: 100%;
@@ -19,11 +33,6 @@ body {
     justify-content: center;
 }
 
-#feature-holder {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .team-member-info {
     width: 20rem;
@@ -36,8 +45,11 @@ body {
 }
 
 #nav-bar {
+    display: flex;
     background-color: white;
-    padding: 2rem;
+    padding: 0 0 0 10vw;
+    box-sizing: border-box;
+    align-items: center;
 }
 
 .team-name {
@@ -50,7 +62,7 @@ body {
 }
 
 #aegis-logo {
-    max-width: 3rem;
+    width: 4rem;
 }
 
 .feature {
